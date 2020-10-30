@@ -114,9 +114,9 @@ aside {
         .navbar-header .navbar-brand {
             color: rgba(magenta, .5);
             &:hover,
-            &:focus {
+          
                 color: magenta;
-            }
+
         }
         .nav > li > a,
         .nav > li > a:focus {
