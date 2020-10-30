@@ -23,7 +23,7 @@ a {
     color: $theme-primary;
     &:hover,
     &:focus {
-        color: darken($theme-primary, 10%);
+        color: darken($theme-primary, 20%);
     }
 }
 
@@ -37,7 +37,7 @@ h6 {
 }
 
 p {
-    font-size: 20px;
+    font-size: 22px;
     line-height: 1.5;
     margin-bottom: 20px;
 }
@@ -71,7 +71,7 @@ aside {
 
 .navbar-default {
     background-color: magenta;
-    border-color: rgba($theme-dark, .5);
+    border-color: rgba($theme-dark, .7);
     @include sans-serif-font;
     @include transition-all;
     .navbar-header .navbar-brand {
@@ -90,7 +90,7 @@ aside {
             > a:focus {
                 text-transform: uppercase;
                 font-weight: 700;
-                font-size: 20px;
+                font-size: 22px;
                 color: $theme-dark;
                 &:hover {
                     color: $theme-primary;
@@ -112,25 +112,25 @@ aside {
         background-color: transparent;
         border-color: rgba(white, .3);
         .navbar-header .navbar-brand {
-            color: rgba(magenta, .7);
+            color: rgba(magenta, .5);
             &:hover,
             &:focus {
-                color: white;
+                color: magenta;
             }
         }
         .nav > li > a,
         .nav > li > a:focus {
-            color: rgba(magenta, .7);
+            color: rgba(magenta, .5);
             &:hover {
                 color: magenta;
             }
         }
         &.affix {
             background-color: white;
-            border-color: rgba($theme-dark, .5);
+            border-color: rgba($theme-primary, .7);
             .navbar-header .navbar-brand {
                 color: $theme-primary;
-                font-size: 20px;
+                font-size: 22px;
                 &:hover,
                 &:focus {
                     color: darken($theme-primary, 10%);
