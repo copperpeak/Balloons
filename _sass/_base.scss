@@ -112,7 +112,7 @@ aside {
         background-color: transparent;
         border-color: rgba(white, .3);
         .navbar-header .navbar-brand {
-            color: rgba(white, .7);
+            color: rgba(magenta, .7);
             &:hover,
             &:focus {
                 color: white;
@@ -126,7 +126,7 @@ aside {
             }
         }
         &.affix {
-            background-color: magenta;
+            background-color: white;
             border-color: rgba($theme-dark, .5);
             .navbar-header .navbar-brand {
                 color: $theme-primary;
