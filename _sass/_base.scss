@@ -114,9 +114,9 @@ aside {
         .navbar-header .navbar-brand {
             color: rgba(magenta, .5);
             &:hover,
-          
+            &:focus{
                 color: magenta;
-
+            }
         }
         .nav > li > a,
         .nav > li > a:focus {
@@ -138,9 +138,9 @@ aside {
             }
             .nav > li > a,
             .nav > li > a:focus {
-                color: $theme-dark;
+                color: $theme-primary;
                 &:hover {
-                    color: $theme-primary;
+                    color: darken($theme-primary, 10%);
                 }
             }
         }
