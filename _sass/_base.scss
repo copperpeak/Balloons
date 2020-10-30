@@ -37,7 +37,7 @@ h6 {
 }
 
 p {
-    font-size: 22px;
+    font-size: 18px;
     line-height: 1.5;
     margin-bottom: 20px;
 }
@@ -90,7 +90,7 @@ aside {
             > a:focus {
                 text-transform: uppercase;
                 font-weight: 700;
-                font-size: 22px;
+                font-size: 18px;
                 color: $theme-dark;
                 &:hover {
                     color: $theme-primary;
@@ -130,7 +130,7 @@ aside {
             border-color: rgba($theme-primary, .7);
             .navbar-header .navbar-brand {
                 color: $theme-primary;
-                font-size: 22px;
+                font-size: 18px;
                 &:hover,
                 &:focus {
                     color: darken($theme-primary, 10%);
